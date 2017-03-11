@@ -2,186 +2,256 @@
 <items version="2" >
 
     <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-db1d764235bf4cc832cc9df796558f71c9e5c633.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d405025c600055237c171a0bbabaa49d69696573">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-82b78fbf8eac695a4e5d4d3c061fa4f453fca4eb.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-5582d332c5fda450a11a2667052f871713978548.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-25cfd1414ecc70ef5b61c79b97f9ef6171637e5b.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-3ede1d52626e22e9914faf06866c8bf9e306bf45.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-ffb60900329182860305bb51fcfe603dbe899735.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
         sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-24b7048a9ac9535149612dcee37b3faf9c7adb22.jar" />
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-7.5.0_73560d9ea033df8302510aba58747ea6cfea1933/classes.dex" />
     </item>
     <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-8b0b16ee720e40fcd1be2f7c1afb8f833a6ed8c5.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-6aa936a87cf1db881d83f09c4f293a55ce4fe10a.jar" />
-    </item>
-    <item
-        jar="/usr/local/share/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-6b8f43d628bde674586e533393329d929d7ff825.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-38929b5649849ec953d0f56b386bc2b577531214.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-91fbd7c44028b7b2bf64bfa837982a7ad3095d84.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-a710a48a3bec183c9f5a0e9dcc07505b701df8be.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
         sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-1f7fbe8aca3b0bda4a6cd1702bc798b50f71e47a.jar" />
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-7.5.0_b0abf06dacf5a90c04450cb70022817cfca1ae38/classes.dex" />
     </item>
     <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-572e982d9a0abf4c13a866b2612c490640e7b38f.jar" />
+        sha1="6f0c9ca93ffd94d53526f9cee0c2446cf6bf7d51">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4f87cd5a3e14d5ff75ba45503f72eb6940ceb691/classes.dex" />
     </item>
     <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-95356fa44a27904b32133d0f0f1e493df6605d64.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-d32b8d56c0bbcca71fbc11736e914e43e978b0fa.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-0fd85878481e3c16fa1235d4c3e06019fbff5eaf.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-be1c5924f5bf3cbd211e3ae9859cc4383e634b51.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-2c33d1f2e077b54db5422593e9d21aeb900e03de.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-0173e2c924e60d991f9d09fa501095d4a39d529f.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-0fd0b41acf3e71717d5004745c855bfcbac5872a.jar" />
-    </item>
-    <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
         sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-80d820c720b97ee6ab70c23eadb61f849923aa57.jar" />
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.0.0_369653e1f9880a0c4dc92e8649c0bfc422829066/classes.dex" />
     </item>
     <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_5669eaeb0cbf25faab685381696c3108ad8b7f71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-7.5.0_904ed6916dd77abf7952cd0975b1d54a5ff8928f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6098ab0c6bbedf8cd8c5a9122f506ce94de1b5e9">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b2f9448f018bc66c5fd7d5a94d1762c796770bb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_71d1b2347ad7b47fd539200a7a08232550177f23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-7.5.0_1bf9cf8dc3f6bb5a8db252cc88f067f11efdc6ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-7.5.0_77eb6a2df2a07c32277daa6ef1427879c08b9704/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-7.5.0_ac1744fd9b763fe7494fe4531697c17101fbe07f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
         sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-f36355a01d69bebc360500244f63c9765734c784.jar" />
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appstate-7.5.0_b681ecafa4faa9761cd5d98a53209383acb48ae3/classes.dex" />
     </item>
     <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-05f8dbf1b151ea6e6059780cbce3150033bcbb40.jar" />
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-7.5.0_3ac3fdf0982224bd87b4f8715b49ce467a0f9051/classes.dex" />
     </item>
     <item
-        jar="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-7.5.0_ac275302efc22ddde3a7985b32e22b2610e56391/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-7.5.0_a2d8d20e360c442d7061e735ba5dab0bb78de1b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-7.5.0_2cbf6769e4a60543e9b357f729b80be3df5c0830/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_9c55c3aeec6be939403763b51236f025dcc01b42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-7.5.0_9a179a59d442683de61193809749bfc8121de019/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-7.5.0_06bf5dea6ba42f78301cb207c72f8b2143421002/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-7.5.0_80fa685c1cc2ddd1899547616d44ff2018ecda99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
         sha1="8d736fefa22d896e84a268354b3ed48a42663150">
-        <dex dex="/cshome/ruoyang/AndroidStudioProjects/OurMood/app/build/intermediates/pre-dexed/debug/classes-98657cf48258288a3ffa28338af35fcfcf486a5c.jar" />
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-7.5.0_22e93c0c553812407aebfe014c37ffaa18d1a099/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-7.5.0_76de20555a98fc827f73718b30c3e6571a7194de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_9a3481a7f945628640a12c727bb26228ba3bd10f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-7.5.0_1f43aba3ed9d945895ea8aa700e1ef7d6f094459/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-7.5.0_6a84f26547a42242f400f2c06fecb39576ed6a25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-7.5.0_4478853884f5ce47914e1c95aa8725411f065148/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-7.5.0_803ae5c8a43b157e7a7c045ffdf60e0e404731c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/Desktop/OurMood/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-22.0.0_96f5eff5f985681c68a98e12df04fdd55f049be5/classes.dex" />
     </item>
 
 </items>

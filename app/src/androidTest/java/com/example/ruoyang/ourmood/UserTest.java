@@ -2,7 +2,9 @@ package com.example.ruoyang.ourmood;
 
 import android.test.ActivityInstrumentationTestCase2;
 
-import java.text.SimpleDateFormat;
+import com.example.ruoyang.ourmood.model.Mood;
+import com.example.ruoyang.ourmood.model.User;
+
 import java.util.ArrayList;
 import java.util.Date;
 
