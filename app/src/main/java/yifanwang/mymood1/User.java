@@ -9,9 +9,30 @@ package yifanwang.mymood1;
  */
 
 import java.io.Serializable;
+import java.util.ArrayList;
+
 public class User implements Serializable{
 
     private String username;
+    private ArrayList<User> followlist;
+    private ArrayList<Mood> moodlist;
+
+    public ArrayList<User> getFollowlist() {
+        return followlist;
+    }
+
+    public void setFollowlist(ArrayList<User> followlist) {
+        this.followlist = followlist;
+    }
+
+    public ArrayList<Mood> getMoodlist() {
+        return moodlist;
+    }
+
+    public void setMoodlist(ArrayList<Mood> moodlist) {
+        this.moodlist = moodlist;
+    }
+
     public User(String username) {
         this.username = username;
     }
@@ -45,5 +66,25 @@ public class User implements Serializable{
 
     public void setUsername(String username) {
         this.username = username;
+    }
+    public void addFollow(User user){
+        this.followlist.add(user);
+    }
+    public void deleteFollow(User user){
+        this.followlist.remove(user);
+    }
+
+    public boolean haveFollow(User user){
+        return this.followlist.contains(user);
+    }
+
+    public void addMood(Mood mood){
+        this.moodlist.add(mood);
+    }
+    public void deleteMood(Mood mood){
+        this.moodlist.remove(mood);
+    }
+    public boolean haveMood(Mood mood){
+        return this.moodlist.contains(mood);
     }
 }
