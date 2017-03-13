@@ -29,20 +29,16 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
     public void testStart() throws Exception {
         Activity activity = getActivity();
     }
-
-
-
-    public void testSignUpSuccess() {
+    //initialize a user
+    public void testBegin(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.clickOnButton("Sign Up");
         solo.assertCurrentActivity("wrong activity", SignupActivity.class);
 
         solo.enterText((EditText) solo.getView(R.id.username_et), "asdf");
         solo.clickOnButton("Sign Up");
-        solo.assertCurrentActivity("wrong activity", SignupsuccessActivity.class);
-        solo.clickOnButton("Startsurfing!");
-        solo.assertCurrentActivity("wrong activity", MainActivity.class);
     }
+    //test the error checking
     public void testSignUpFailed() {
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.clickOnButton("Sign Up");
@@ -57,13 +53,15 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         assertTrue(solo.waitForText("Username cannot contain space"));
 
     }
+
+    //test if we can sign in successfully
     public void testSignInSucceed() {
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
         solo.clickOnButton("Sign In");
         solo.assertCurrentActivity("Wrong Activity", MainActivity.class);
     }
-
+    //test error checking
     public void testSignInFailed() {
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "");
@@ -74,7 +72,7 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.clickOnButton("Sign In");
         assertTrue(solo.waitForText("Username cannot contain space"));
     }
-
+    //test if the mood can convert to map
     public void testConvertToMap() {
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
@@ -83,7 +81,7 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.clickOnImage(2);
         solo.assertCurrentActivity("Wrong Activity", SeeMapActivity.class);
     }
-
+    //test if the filter can operate
     public void testFilter() {
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
@@ -103,6 +101,7 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.assertCurrentActivity("Wrong Activity",ShowDetailActivity.class);
     }
     */
+    //test if we can jump to mood event fragment
     public void testMood(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
@@ -111,6 +110,8 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.clickOnText("Mood Event");
         solo.waitForFragmentByTag("FragmentMood");
     }
+
+    //test if we can jump to nearby fragment
     public void testnearby() {
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
@@ -119,6 +120,7 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.clickOnText("Nearby");
         solo.waitForFragmentByTag("NearbyFragment");
     }
+    //test if we can jump to search friends
     public void testSearchFriend(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
@@ -127,6 +129,7 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.clickOnText("Follow");
         solo.waitForFragmentByTag("FragmentFollow");
     }
+    //test if we can jump to profile fragment
     public void testProfile(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
@@ -135,6 +138,7 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.clickOnText("Profile");
         solo.waitForFragmentByTag("FragmentProfile");
     }
+    //test if we can jump to search
     public void testhistory(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
@@ -145,6 +149,8 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.clickOnButton("My Mood Events History");
         solo.waitForText("My Mood History");
     }
+
+    //test if we can accept follower request
     public void testRequest(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
@@ -155,7 +161,7 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.clickOnButton("Follower Request");
         solo.waitForText("ACCEPT");
     }
-
+    //test if we can edit our mood
     public void testEdit(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
@@ -182,6 +188,7 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.assertCurrentActivity("wrong activity",SeeMapActivity.class);
     }
     */
+    //test if we can use the filter
     public void testFilter2(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
         solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
