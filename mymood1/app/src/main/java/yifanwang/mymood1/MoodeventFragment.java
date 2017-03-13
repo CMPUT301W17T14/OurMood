@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 
 public class MoodeventFragment extends Fragment {
     ImageButton fliter;
-
+    ImageButton globe;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,13 +32,26 @@ public class MoodeventFragment extends Fragment {
             public void onClick(View v){
                 ToInterest(v);}
         });
+        globe= (ImageButton)view.findViewById(R.id.globe);
+        globe.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+
+            public void onClick(View v){
+                Tomain(v);}
+        });
 
         return view;
 
     }
     public void ToInterest(View view)
     {
-        Intent intent = new Intent(MoodeventFragment.this.getActivity(), Main22Activity.class);
+        Intent intent = new Intent(MoodeventFragment.this.getActivity(), Fliter.class);
+        startActivity(intent);
+    }
+    public void Tomain(View view)
+    {
+        Intent intent = new Intent(MoodeventFragment.this.getActivity(), Globe.class);
         startActivity(intent);
     }
 
