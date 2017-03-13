@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,19 +20,11 @@
         android:layout_height="wrap_content"
         android:text="Follower Request"
         android:layout_marginBottom="87dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:background="@android:color/holo_blue_dark" />
-
-    <Button
-        android:id="@+id/AddNewMood"
-        android:text="Add New Mood Event"
-        android:layout_marginBottom="40dp"
-        android:layout_height="150dp"
-        android:layout_width="150dp"
-        android:layout_above="@+id/MyMoodHistory"
-        android:layout_centerHorizontal="true"
         android:background="@android:color/holo_blue_dark" />
 
     <Button
@@ -39,11 +32,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Mood Events History"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
         android:layout_marginBottom="17dp"
         android:layout_above="@+id/FollowerRequest"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:background="@android:color/holo_blue_dark" />
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_edit"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:id="@+id/addnew"
+        android:onClick="addnew"
+        android:background="#00000000"/>
 
 </RelativeLayout>
 

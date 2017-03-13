@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="yifanwang.mymood1.MoodeventFragment">
 
 
@@ -27,7 +28,7 @@
                 android:id="@+id/fliter"
                 android:background="@android:color/transparent" />
             <TextView
-                android:id="@+id/tvChat"
+                android:id="@+id/tvMoodEvent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Filter"
@@ -36,7 +37,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llFriends"
+            android:id="@+id/llNearby"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
@@ -44,7 +45,7 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/tvFriends"
+                android:id="@+id/tvNearby"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mood List"
@@ -76,18 +77,10 @@
 
         </LinearLayout>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="it's the first mood event"
-            android:id="@+id/detail"
-            android:background="#00000000"/>
-    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>

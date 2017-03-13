@@ -51,7 +51,7 @@ public class MoodeventFragment extends Fragment {
     }
     public void Tomain(View view)
     {
-        Intent intent = new Intent(MoodeventFragment.this.getActivity(), Globe.class);
+        Intent intent = new Intent(MoodeventFragment.this.getActivity(), SeeMapActivity.class);
         startActivity(intent);
     }
 

@@ -9,12 +9,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 
 public class ProfileFragment extends Fragment {
 
     Button FollowerRequest;
     Button MyMoodHistory;
+    ImageButton addnew;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +45,14 @@ public class ProfileFragment extends Fragment {
             public void onClick(View v){
                 ToMyMoodHistory(v);}
         });
+        addnew= (ImageButton)view.findViewById(R.id.addnew);
+        addnew.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+
+            public void onClick(View v){
+                ToEdit(v);}
+        });
 
         return view;
 
@@ -58,6 +68,10 @@ public class ProfileFragment extends Fragment {
 
     public void ToMyMoodHistory(View view){
         Intent intent = new Intent(ProfileFragment.this.getActivity(), MyHistoryActivity.class);
+        startActivity(intent);
+    }
+    public void ToEdit(View view){
+        Intent intent = new Intent(ProfileFragment.this.getActivity(), AddNewEvent.class);
         startActivity(intent);
     }
 

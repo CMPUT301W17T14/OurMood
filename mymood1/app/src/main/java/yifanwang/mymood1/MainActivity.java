@@ -20,9 +20,9 @@ public class MainActivity extends Activity implements OnClickListener {
 
     private List<Fragment> fragments = new ArrayList<Fragment>();
     private ViewPager viewPager;
-    private LinearLayout llChat, llFriends, llContacts, llSettings;
-    private ImageView ivChat, ivFriends, ivContacts, ivSettings, ivCurrent;
-    private TextView tvChat, tvFriends, tvContacts, tvSettings, tvCurrent;
+    private LinearLayout llMoodEvent, llNearby, llSearchF, llProfile;
+    private ImageView ivMoodEvent, ivNearby, ivSearchF, ivProfile, ivCurrent;
+    private TextView tvMoodEvent, tvNearby, tvSearchF, tvProfile, tvCurrent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,30 +38,30 @@ public class MainActivity extends Activity implements OnClickListener {
     private void initView() {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
 
-        llChat = (LinearLayout) findViewById(R.id.llChat);
-        llFriends = (LinearLayout) findViewById(R.id.llFriends);
-        llContacts = (LinearLayout) findViewById(R.id.llContacts);
-        llSettings = (LinearLayout) findViewById(R.id.llSettings);
+        llMoodEvent = (LinearLayout) findViewById(R.id.llMoodEvent);
+        llNearby = (LinearLayout) findViewById(R.id.llNearby);
+        llSearchF = (LinearLayout) findViewById(R.id.llSearchF);
+        llProfile = (LinearLayout) findViewById(R.id.llProfile);
 
-        llChat.setOnClickListener(this);
-        llFriends.setOnClickListener(this);
-        llContacts.setOnClickListener(this);
-        llSettings.setOnClickListener(this);
+        llMoodEvent.setOnClickListener(this);
+        llNearby.setOnClickListener(this);
+        llSearchF.setOnClickListener(this);
+        llProfile.setOnClickListener(this);
 
-        ivChat = (ImageView) findViewById(R.id.ivChat);
-        ivFriends = (ImageView) findViewById(R.id.ivFriends);
-        ivContacts = (ImageView) findViewById(R.id.ivContacts);
-        ivSettings = (ImageView) findViewById(R.id.ivSettings);
+        ivMoodEvent = (ImageView) findViewById(R.id.ivMoodEvent);
+        ivNearby = (ImageView) findViewById(R.id.ivNearby);
+        ivSearchF = (ImageView) findViewById(R.id.ivSearchF);
+        ivProfile = (ImageView) findViewById(R.id.ivProfile);
 
-        tvChat = (TextView) findViewById(R.id.tvChat);
-        tvFriends = (TextView) findViewById(R.id.tvFriends);
-        tvContacts = (TextView) findViewById(R.id.tvContacts);
-        tvSettings = (TextView) findViewById(R.id.tvSettings);
+        tvMoodEvent = (TextView) findViewById(R.id.tvMoodEvent);
+        tvNearby = (TextView) findViewById(R.id.tvNearby);
+        tvSearchF = (TextView) findViewById(R.id.tvSearchF);
+        tvProfile = (TextView) findViewById(R.id.tvProfile);
 
-        ivChat.setSelected(true);
-        tvChat.setSelected(true);
-        ivCurrent = ivChat;
-        tvCurrent = tvChat;
+        ivMoodEvent.setSelected(true);
+        tvMoodEvent.setSelected(true);
+        ivCurrent = ivMoodEvent;
+        tvCurrent = tvMoodEvent;
 
         viewPager.setOnPageChangeListener(new OnPageChangeListener() {
 
@@ -85,7 +85,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
     private void initData() {
         Fragment chatFragment = new MoodeventFragment();
-        Fragment friendsFragment = new ProfileFragment();
+        Fragment friendsFragment = new NearbyFragment();
         Fragment contactsFragment = new SearchfriendFragment();
         Fragment settingsFragment = new ProfileFragment();
 
@@ -108,37 +108,37 @@ public class MainActivity extends Activity implements OnClickListener {
         ivCurrent.setSelected(false);
         tvCurrent.setSelected(false);
         switch (id) {
-            case R.id.llChat:
+            case R.id.llMoodEvent:
                 viewPager.setCurrentItem(0);
             case 0:
-                ivChat.setSelected(true);
-                ivCurrent = ivChat;
-                tvChat.setSelected(true);
-                tvCurrent = tvChat;
+                ivMoodEvent.setSelected(true);
+                ivCurrent = ivMoodEvent;
+                tvMoodEvent.setSelected(true);
+                tvCurrent = tvMoodEvent;
                 break;
-            case R.id.llFriends:
+            case R.id.llNearby:
                 viewPager.setCurrentItem(1);
             case 1:
-                ivFriends.setSelected(true);
-                ivCurrent = ivFriends;
-                tvFriends.setSelected(true);
-                tvCurrent = tvFriends;
+                ivNearby.setSelected(true);
+                ivCurrent = ivNearby;
+                tvNearby.setSelected(true);
+                tvCurrent = tvNearby;
                 break;
-            case R.id.llContacts:
+            case R.id.llSearchF:
                 viewPager.setCurrentItem(2);
             case 2:
-                ivContacts.setSelected(true);
-                ivCurrent = ivContacts;
-                tvContacts.setSelected(true);
-                tvCurrent = tvContacts;
+                ivSearchF.setSelected(true);
+                ivCurrent = ivSearchF;
+                tvSearchF.setSelected(true);
+                tvCurrent = tvSearchF;
                 break;
-            case R.id.llSettings:
+            case R.id.llProfile:
                 viewPager.setCurrentItem(3);
             case 3:
-                ivSettings.setSelected(true);
-                ivCurrent = ivSettings;
-                tvSettings.setSelected(true);
-                tvCurrent = tvSettings;
+                ivProfile.setSelected(true);
+                ivCurrent = ivProfile;
+                tvProfile.setSelected(true);
+                tvCurrent = tvProfile;
                 break;
             default:
                 break;

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_my_history"
     android:layout_width="match_parent"
@@ -50,8 +51,18 @@
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="350dp"
         android:id="@+id/list" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_action_user"
+        android:onClick="backtohome"
+        android:id="@+id/backtohome"
+        android:layout_marginLeft="270dp"
+        android:background="#00000000"/>
+
 
 </LinearLayout>
 

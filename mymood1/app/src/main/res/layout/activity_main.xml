@@ -36,7 +36,7 @@
         android:orientation="horizontal" >
 
         <LinearLayout
-            android:id="@+id/llChat"
+            android:id="@+id/llMoodEvent"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -44,14 +44,14 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:id="@+id/ivChat"
+                android:id="@+id/ivMoodEvent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#00000000"
                 android:src="@drawable/tab_home" />
 
             <TextView
-                android:id="@+id/tvChat"
+                android:id="@+id/tvMoodEvent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mood Event"
@@ -59,7 +59,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llFriends"
+            android:id="@+id/llNearby"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -67,14 +67,14 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:id="@+id/ivFriends"
+                android:id="@+id/ivNearby"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#00000000"
                 android:src="@drawable/tab_nearby" />
 
             <TextView
-                android:id="@+id/tvFriends"
+                android:id="@+id/tvNearby"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nearby"
@@ -82,7 +82,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llContacts"
+            android:id="@+id/llSearchF"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -90,14 +90,14 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:id="@+id/ivContacts"
+                android:id="@+id/ivSearchF"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#00000000"
                 android:src="@drawable/tab_follow" />
 
             <TextView
-                android:id="@+id/tvContacts"
+                android:id="@+id/tvSearchF"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Follow"
@@ -105,7 +105,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llSettings"
+            android:id="@+id/llProfile"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -113,14 +113,14 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:id="@+id/ivSettings"
+                android:id="@+id/ivProfile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#00000000"
                 android:src="@drawable/tab_profile" />
 
             <TextView
-                android:id="@+id/tvSettings"
+                android:id="@+id/tvProfile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Profile"
