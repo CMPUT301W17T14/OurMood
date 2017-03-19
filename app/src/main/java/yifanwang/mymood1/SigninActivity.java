@@ -37,6 +37,7 @@ public class SigninActivity extends AppCompatActivity {
                 if(checkUsernameLegal(username)) {
                     if (userList.checkUserExisted(u, context)) {
                         Intent intent = new Intent(SigninActivity.this, MainActivity.class);
+                        intent.putExtra(MainActivity.EXTRA_USERNAME_MSG, u.getUsername());
                         startActivity(intent);
                     } else {
                         makeTost("User Not Existed");

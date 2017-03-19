@@ -3,282 +3,174 @@
 
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.8.0_815c1903f6454b45cae53e0b847ad61d66fcf58d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1_627fad45693b0db1ac1a55dc6dcb12b532da00e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_aa7fffde43e7af90b6fd864d8cbf43b582a0a712.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/jsr305-2.0.1_a7d22a78584dc6a0ed9def3c7e0cd052a12a74b3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_8e0b6c1f393f44bdc2543b125c2cdcd71319e921.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_091827cdcbcc312ab96acdbfb6a133dde0b6de99.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_a3bdb8a12282e1a244c7b5ac155dfb300ffdfd50.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-core-2.2.2_af7aa3196431e83bb4de72159fcdb8cc2db3b1b0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_4ddf26e242c89fe32a6ec96ba5e3012c026a8329.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a890ee8445927649d9ed50f625a315d8758688be">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test.espresso-espresso-idling-resource-2.2.2_a0d8dcb55b1cb8b7acec973c81d2b142a0168d21.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_969f4b3c56f18ebe6c9156c7a4ccff460b6ae2ce.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_c23a78bde2f4bf19cbedf1e85bc5f530d98583c0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.6.3/94ec2d7b23be9817d92905cc09124aecfc46d28c/robotium-solo-5.6.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94ec2d7b23be9817d92905cc09124aecfc46d28c">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/robotium-solo-5.6.3_fd979393c63fe3e2c15322c5a9ff09d468f068a1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/javawriter-2.1.1_b9fb3d3b804dd7590f4c96fddc208a308861e88d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_f26d8ec45d94deaed17612aa2c9f0faee934dc4d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_3ea40844cf6a71c432974e89cd406b85c83701c4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support.test/exposed-instrumentation-api-publish/0.5/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-exposed-instrumentation-api-publish-0.5_742586f5e9f88360b72c41943527eb1772a14385.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_b8449e09a2bb8dc6500b0b377feec4a1845ccbfb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_6dc2aa3c4b829587ddcd9406bd4e8576c511acd7.jar" />
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_a79b020fd9d753f6e6368c282b741a7585d96113.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_0dea29a7911d4281bfa1fc7cc82d089372d526f0.jar" />
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_d883c370c59c61a786ca967d972314db99510aa1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_ce83903e3cbf534616dad94727dcaea85d68ca2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_55fa7a55f85d764a5f367d6f852f1be654253c9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_89b3c1211ee330137e9995abfd7be7ed937326cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_db3bb42203b37e7834274740e8b932e13f0e4595.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_8b3529395dcd7467536df71899bfa67053c30f69.jar" />
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_24546003eb7dfa9c182290034c3647f6968e7f90.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="479c1e06db31c432330183f5cae684163f186146">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/javax.annotation-api-1.2_530c14d19a4130f7d407c4d99b8bcbc3a2d49e25.jar" />
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/gson-2.8.0_9747d6a6be7e06857f64b678702ea653f94ed001.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_61ca428752aeb1bd4a7ce50a3e6e2b414cc4b84f.jar" />
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_7b699240522bfdfd62e55edb3b7886b6912482a3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.8.0_2045cd0e241cb82d70453da2ac31d56be229f4d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_85a1e5e0da396d023c99a4feeae7ad7bde6d494e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_917e402be6669912ad76c3772d550bebfcad5f4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_49670f2ed7ae022145c5300a449394705d046ece.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_88fada31ab13c4d8ccac67c64bb5dfb9fe6f5e61.jar" />
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_cc47aad1455b34796f69bb748b0cb29edc0590f9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.6.3/94ec2d7b23be9817d92905cc09124aecfc46d28c/robotium-solo-5.6.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.3_32dd0e9eb6d5b5f17cbb13531a79284f895bc8da.jar" />
+        sha1="94ec2d7b23be9817d92905cc09124aecfc46d28c">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/robotium-solo-5.6.3_f76299a4f9f22be00b524c0967e31fd3e5fcd621.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.3_8dfde14a5b5087e3b7ad248c1fd54dbb18168182.jar" />
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_12a6c6597f3878c5ac66913d22df0b440e188e28.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/jars/classes.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-rules-0.5_4f4c1e130e36a9ad31beb8623c0cc83958c3644e.jar" />
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_2d9289e2f3ec09e173358c118dae440710036c38.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3_4aa15e206dc1c3488fd312b58ee07faa7a6a744b.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_af0264d8ce0e8991cb8a422500a3b17621b41ab2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.android.support.test/runner/0.5/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/com.android.support.test-runner-0.5_854c31564db6e5a9cd9692bc29d9f6c5063cd9fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/androidTest/debug/junit-4.12_8aec760fe829de584dc359c424cf3e83b1a496fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jar="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="/afs/ualberta.ca/home/r/u/ruoyang/Downloads/OurMood-yifan/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_06c78d4d064e7bc493484d7e9ed9560633658395.jar" />
+        <dex dex="/afs/ualberta.ca/home/j/u/junzhuo/OurMood/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_c476b4715892a20a8fdbb46dac7d7743a8531d07.jar" />
     </item>
 
 </items>

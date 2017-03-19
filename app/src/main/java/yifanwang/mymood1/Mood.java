@@ -4,11 +4,13 @@ import android.location.Location;
 import android.media.Image;
 
 import java.util.Date;
+import java.util.UUID;
 
 /**
  * Created by ruoyang on 2/22/17.
  */
 public class Mood {
+    private String uuid;
     private String name;
     private String mood;
     private String trigger;
@@ -19,10 +21,11 @@ public class Mood {
     private Location location;
     private int like;
 
-    public Mood(String name,String mood, Date date ){
+    public Mood(String name, String mood){
+        this.uuid = UUID.randomUUID().toString();
         this.name = name;
         this.mood = mood;
-        this.date = date;
+        this.date = new Date();
     }
 
     public String getName() {
@@ -43,6 +46,7 @@ public class Mood {
                 '}';
     }
 
+    public String getUUID() {return uuid;}
     public int getLike() {
         return like;
     }
