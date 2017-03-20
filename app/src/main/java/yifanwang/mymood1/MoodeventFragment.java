@@ -2,14 +2,14 @@ package yifanwang.mymood1;
 
 
 import android.app.Fragment;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ListView;
 
 public class MoodeventFragment extends Fragment {
     ImageButton fliter;
@@ -40,6 +40,16 @@ public class MoodeventFragment extends Fragment {
             public void onClick(View v){
                 Tomain(v);}
         });
+
+        ListView moodlist = (ListView) view.findViewById(R.id.mood_list);
+
+        Boolean offline = false;
+
+        Context ctx = this.getActivity();
+
+        moodlist.setAdapter(null);
+        MoodlistAdpater moodlistAdpater = new MoodlistAdpater(ctx, new MoodList().getMoodLists(ctx, offline));
+        moodlist.setAdapter(moodlistAdpater);
 
         return view;
 

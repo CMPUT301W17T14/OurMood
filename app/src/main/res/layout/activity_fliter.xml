@@ -27,55 +27,68 @@
         android:layout_alignEnd="@+id/checkBox"
         android:layout_marginTop="54dp"
         android:id="@+id/checkBox2" />
-
-    <RadioButton
-        android:text="Happy"
-        android:layout_width="wrap_content"
+    <RadioGroup
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:layout_below="@+id/checkBox2"
-        android:layout_alignStart="@+id/checkBox2"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="18dp"
-        android:id="@+id/radioButton" />
+        android:id="@+id/radiogroup1">
+        <RadioButton
+            android:text="Happy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox2"
+            android:layout_alignStart="@+id/checkBox2"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/radioButton" />
 
-    <RadioButton
-        android:text="Shame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/radioButton"
-        android:layout_alignStart="@+id/radioButton"
-        android:id="@+id/radioButton2" />
+        <RadioButton
+            android:text="Shame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton"
+            android:layout_alignStart="@+id/radioButton"
+            android:layout_marginStart="56dp"
+            android:id="@+id/radioButton2" />
 
-    <RadioButton
-        android:text="Fear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/radioButton2"
-        android:id="@+id/radioButton3"
-        android:layout_below="@+id/radioButton2" />
+        <RadioButton
+            android:text="Fear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioButton2"
+            android:id="@+id/radioButton3"
+            android:layout_marginStart="56dp"
+            android:layout_below="@+id/radioButton2" />
 
-    <RadioButton
-        android:text="Disgust"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/radioButton3"
-        android:layout_alignStart="@+id/radioButton3"
-        android:id="@+id/radioButton4" />
+        <RadioButton
+            android:text="Disgust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton3"
+            android:layout_alignStart="@+id/radioButton3"
+            android:layout_marginStart="56dp"
+            android:id="@+id/radioButton4" />
 
-    <RadioButton
-        android:text="Sad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/radioButton4"
-        android:layout_alignStart="@+id/radioButton4"
-        android:layout_alignEnd="@+id/radioButton4"
-        android:id="@+id/radioButton5" />
+        <RadioButton
+            android:text="Sad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton4"
+            android:layout_alignStart="@+id/radioButton4"
+            android:layout_alignEnd="@+id/radioButton4"
+            android:layout_marginStart="56dp"
+            android:id="@+id/radioButton5" />
+
+    </RadioGroup>
+
+
 
     <CheckBox
         android:text="View Events with keywords:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/radioButton5"
+        android:layout_below="@+id/radiogroup1"
         android:layout_alignEnd="@+id/checkBox2"
         android:id="@+id/checkBox4" />
 

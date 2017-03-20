@@ -1,22 +1,25 @@
 package yifanwang.mymood1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.Fragment;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.List;
+//extends Application
 public class MainActivity extends Activity implements OnClickListener {
+
+    public final static String EXTRA_USERNAME_MSG = "com.app.username";
+    private String username;
 
     private List<Fragment> fragments = new ArrayList<Fragment>();
     private ViewPager viewPager;
@@ -29,6 +32,13 @@ public class MainActivity extends Activity implements OnClickListener {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
+
+        Intent intent = getIntent();
+        username = intent.getStringExtra(EXTRA_USERNAME_MSG);
+
+        OurMoodApplication app = (OurMoodApplication) getApplication();
+        app.setUsername(username);
+        app.setFilter(new Filter_data());
 
         initView();
 
