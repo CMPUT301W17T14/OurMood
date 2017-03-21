@@ -134,21 +134,6 @@ public class ElasticsearchController {
         }
     }
 
-    /**
-     * Create new Index
-     */
-    public static void createIndex() {
-        verifySettings();
-        try {
-            boolean indexExists = client.execute(new IndicesExists.Builder("cmput301w17t14").build()).isSucceeded();
-            if (indexExists) {
-                client.execute(new DeleteIndex.Builder("cmput301w17t14").build());
-            }
-            client.execute(new CreateIndex.Builder("cmput301w17t14").build());
-        } catch (Exception e) {
-            Log.i("Error", "Something went wrong when we tried to communicate with the elasticsearch server!");
-        }
-    }
 
     /**
      * Verify settings.
