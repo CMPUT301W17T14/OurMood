@@ -5,13 +5,20 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.SyncStateContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.ListView;
 
+import com.google.gson.Gson;
+
+import java.util.ArrayList;
+
 public class MoodeventFragment extends Fragment {
+    public final static String EXTRA_USERNAME_MSG = "com.app.username";
     ImageButton fliter;
     ImageButton globe;
     @Override
@@ -47,8 +54,19 @@ public class MoodeventFragment extends Fragment {
 
         Context ctx = this.getActivity();
 
+        final ArrayList<Mood> lists = new MoodList().getMoodLists(ctx,offline);
         moodlist.setAdapter(null);
-        MoodlistAdpater moodlistAdpater = new MoodlistAdpater(ctx, new MoodList().getMoodLists(ctx, offline));
+        MoodlistAdpater moodlistAdpater = new MoodlistAdpater(ctx,lists);
+        moodlist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(MoodeventFragment.this.getActivity(), ShowDetailActivity.class);
+                Gson gS = new Gson();
+                String target = gS.toJson(lists.get(position));
+                intent.putExtra("MOOD",target);
+                startActivity(intent);
+            }
+        });
         moodlist.setAdapter(moodlistAdpater);
 
         return view;
