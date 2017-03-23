@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
+    <uses-permission android:name="android.permission.CAMERA" />
     <meta-data
         android:name="com.google.android.maps.v2.API_KEY"
         android:value="your api key" />
@@ -31,11 +31,11 @@
         <activity android:name=".SignupActivity" />
         <activity android:name=".SignupsuccessActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".Main22Activity" />
         <activity android:name=".FriendRequestActivity" />
         <activity android:name=".MyHistoryActivity" />
         <activity android:name=".Fliter" />
         <activity android:name=".Filter2" />
+        <activity android:name=".ShowDetailActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -50,8 +50,9 @@
 
         <activity
             android:name=".SeeMapActivity"
-            android:label="@string/title_activity_see_map"></activity>
-        <activity android:name=".AddNewEvent"></activity>
+            android:label="@string/title_activity_see_map" />
+        <activity android:name=".AddNewEvent" />
+        <activity android:name=".CameroActivity"></activity>
     </application>
 
 </manifest>

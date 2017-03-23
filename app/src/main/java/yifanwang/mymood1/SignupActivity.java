@@ -28,6 +28,8 @@ public class SignupActivity extends AppCompatActivity {
 
     private void initView() {
         Sign_up = (Button) findViewById(R.id.startsurfring);
+        ElasticsearchController.AddUserTask addUserTask = new ElasticsearchController.AddUserTask();
+        //addUserTask.execute()
         Sign_up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

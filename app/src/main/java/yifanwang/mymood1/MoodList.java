@@ -1,6 +1,7 @@
 package yifanwang.mymood1;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -116,7 +117,8 @@ public class MoodList {
         if (offline) {
             ret.addAll(MoodList_offline);
         }
-
+        //Log.d("----", ret.get(0).toString());
+        //Log.d("----", ret.get(1).toString());
         return ret;
     }
 

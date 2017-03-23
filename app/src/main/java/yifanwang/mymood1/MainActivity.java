@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements OnClickListener {
         username = intent.getStringExtra(EXTRA_USERNAME_MSG);
 
         OurMoodApplication app = (OurMoodApplication) getApplication();
-        app.setUsername(username);
+        OurMoodApplication.username = username;
         app.setFilter(new Filter_data());
 
         initView();

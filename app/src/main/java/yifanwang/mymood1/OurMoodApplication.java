@@ -8,16 +8,13 @@ import android.app.Application;
 
 public class OurMoodApplication extends Application {
 
-    private String username;
+    public static String username;
     private Filter_data filter;
 
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String name) {
-        this.username = name;
-    }
 
     public Filter_data getFilter() {return filter;};
     public void setFilter(Filter_data filter) {this.filter = filter;};

@@ -110,7 +110,7 @@ public class ElasticsearchController {
     /**
      *check if the user is stored in elastic search
      */
-    public static class IsExist extends AsyncTask<String, Void, Boolean> {
+    public static class isExist extends AsyncTask<String, Void, Boolean> {
         @Override
         protected Boolean doInBackground(String... params){
             verifySettings();
