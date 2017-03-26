@@ -1,7 +1,6 @@
 package yifanwang.mymood1;
 
 import android.content.Context;
-import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -47,6 +46,26 @@ public class MoodList {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    public void deleteMood(Mood mood, Context context, Boolean offline){
+        try {
+            loadMoodList(context, offline);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        if (offline) {
+            MoodList_offline.remove(mood);
+        }else {
+            MoodList.remove(mood);
+        }
+
+        try {
+            this.saveMoodList(context, offline);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public Mood getMood(String uuid, Context context, Boolean offline) {
@@ -117,8 +136,7 @@ public class MoodList {
         if (offline) {
             ret.addAll(MoodList_offline);
         }
-        //Log.d("----", ret.get(0).toString());
-        //Log.d("----", ret.get(1).toString());
+
         return ret;
     }
 
