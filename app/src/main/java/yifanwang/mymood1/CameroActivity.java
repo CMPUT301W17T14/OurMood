@@ -15,6 +15,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -64,7 +65,7 @@ public class CameroActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-    private File createImageFile() throws IOException {
+    private File createImageFile2() throws IOException {
         // Create an image file name
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageFileName = "JPEG_" + timeStamp + "_";
@@ -80,24 +81,36 @@ public class CameroActivity extends AppCompatActivity {
         mCurrentPhotoPath = "file:" + image.getAbsolutePath();
         return image;
     }
-    public void takeAPhoto() throws IOException {
+    private File createImageFile() throws IOException {
+        // Create an image file name
         String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/MyCameraTest";
         File folder = new File(path);
         if (!folder.exists())
             folder.mkdir();
         String imagePathAndFileName = path + File.separator + String.valueOf(System.currentTimeMillis()) + ".jpg";
         File imageFile = new File(imagePathAndFileName);
+        return imageFile;
+    }
+    public void takeAPhoto() throws IOException {
+//IOException        String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/MyCameraTest";
+//        File folder = new File(path);
+//        if (!folder.exists())
+//            folder.mkdir();
+//        String imagePathAndFileName = path + File.separator + String.valueOf(System.currentTimeMillis()) + ".jpg";
+//        File imageFile = new File(imagePathAndFileName);
+        //imageFileUri = Uri.fromFile(imageFile);;
+                //FileProvider.getUriForFile(this, this.getApplicationContext().getPackageName() + ".provider", createImageFile());
         imageFileUri = FileProvider.getUriForFile(this, this.getApplicationContext().getPackageName() + ".provider", createImageFile());
-
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         intent.putExtra(MediaStore.EXTRA_OUTPUT, imageFileUri);
-        startActivityForResult(intent, 12345);
+        startActivityForResult(intent, 1);
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent intent){
-        if (requestCode == 12345){
+        if (requestCode == 1){
             TextView tv = (TextView)findViewById(R.id.textView1);
             if (resultCode == RESULT_OK){
+                Log.v("123", "reutn;");
                 tv.setText("Photo completed!");
                 ImageButton ib = (ImageButton)findViewById(R.id.takeImage_ib);
                 ib.setImageDrawable(Drawable.createFromPath(imageFileUri.getPath()));
