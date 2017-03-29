@@ -41,17 +41,39 @@
         android:layout_alignParentEnd="true"
         android:background="@android:color/holo_blue_dark" />
 
-    <ImageButton
+    <Button
+        android:id="@+id/AddFollow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow a new person"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/MyMoodHistory"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_dark" />
 
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_action_edit"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="118dp"
         android:id="@+id/addnew"
         android:onClick="addnew"
-        android:background="#00000000"/>
+        android:background="#00000000"
+        android:layout_marginBottom="47dp"
+        android:layout_above="@+id/AddFollow"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/AddMoodEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a new mood event"
+        android:textColor="#000000"
+        android:layout_alignBottom="@+id/addnew"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
 

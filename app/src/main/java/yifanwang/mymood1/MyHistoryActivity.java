@@ -23,8 +23,8 @@ public class MyHistoryActivity extends AppCompatActivity {
     public void SeeInMap(View view){
         Intent intent = new Intent(this,SeeMapActivity.class);
         startActivity(intent);
-
     }
+
     public void backtohome(View view){
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);

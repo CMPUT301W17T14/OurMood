@@ -16,6 +16,9 @@ public class User implements Serializable{
     private String username;
     private ArrayList<User> followlist;
     private ArrayList<Mood> moodlist;
+    private ArrayList<String> followeeIDs = new ArrayList<>();
+    private ArrayList<String> followerIDs = new ArrayList<>();
+    private ArrayList<String> pendingPermissions = new ArrayList<>();
 
     public ArrayList<User> getFollowlist() {
         return followlist;
@@ -32,9 +35,9 @@ public class User implements Serializable{
     public void setMoodlist(ArrayList<Mood> moodlist) {
         this.moodlist = moodlist;
     }
-    
+
     public User() {
-        
+
     }
 
     public User(String username) {
@@ -45,6 +48,57 @@ public class User implements Serializable{
         return username;
     }
 
+
+    public ArrayList<String> getFolloweeIDs() {
+        return this.followeeIDs;
+    }
+
+    /**
+     * Sets followee array
+     *
+     * @param followeeIDs the followee array
+     */
+    public void setFolloweeIDs(ArrayList<String> followeeIDs) {
+        this.followeeIDs.addAll(followeeIDs);
+    }
+
+    /**
+     * Gets follower array
+     *
+     * @return the follower array
+     */
+    public ArrayList<String> getFollowerIDs() {
+        return followerIDs;
+    }
+
+    /**
+     * Sets follower array
+     *
+     * @param followerIDs the follower array
+     */
+    public void setFollowerIDs(ArrayList<String> followerIDs) {
+        this.followerIDs.addAll(followerIDs);
+    }
+
+    /**
+     * Gets pending permission array.
+     *
+     * @return the pending permission array
+     */
+    public ArrayList<String> getPendingPermission() {
+        return pendingPermissions;
+    }
+
+    /**
+     * Sets pending permissions.
+     *
+     * @param pendingPermissions the pending permissions
+     */
+    public void setPendingPermissions(ArrayList<String> pendingPermissions) {
+        this.pendingPermissions = pendingPermissions;
+    }
+
+
     @Override
     public String toString() {
         return "User{" +
@@ -54,13 +108,21 @@ public class User implements Serializable{
 
     @Override
     public boolean equals(Object o) {
+        /**
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
         User user = (User) o;
 
         return username.equals(user.username);
+*/
+        if(o == null) return false;
+        if(o == this) return true;
+        if(!(o instanceof User)) return false;
+        User otherUser = (User) o;
+        if(otherUser.getUsername().compareTo(this.getUsername())  == 0) return true;
 
+        return false;
     }
 
     @Override

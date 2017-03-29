@@ -15,6 +15,7 @@ public class ProfileFragment extends Fragment {
 
     Button FollowerRequest;
     Button MyMoodHistory;
+    Button AddFollow;
     ImageButton addnew;
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -44,6 +45,15 @@ public class ProfileFragment extends Fragment {
             public void onClick(View v){
                 ToMyMoodHistory(v);}
         });
+        AddFollow= (Button)view.findViewById(R.id.AddFollow);
+        AddFollow.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+
+            public void onClick(View v){
+                ToAddFollow(v);}
+        });
+
         addnew= (ImageButton)view.findViewById(R.id.addnew);
         addnew.setOnClickListener(new View.OnClickListener(){
 
@@ -70,6 +80,10 @@ public class ProfileFragment extends Fragment {
         startActivity(intent);
     }
 
+    public void ToAddFollow(View view){
+        Intent intent = new Intent(ProfileFragment.this.getActivity(), AddFollowActivity.class);
+        startActivity(intent);
+    }
     //New event
     public void ToEdit(View view){
         Intent intent = new Intent(ProfileFragment.this.getActivity(), AddNewEvent.class);
