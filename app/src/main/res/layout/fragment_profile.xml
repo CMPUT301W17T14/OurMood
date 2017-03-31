@@ -29,19 +29,6 @@
         android:background="@android:color/holo_blue_dark" />
 
     <Button
-        android:id="@+id/MyMoodHistory"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="My Mood Events History"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginBottom="17dp"
-        android:layout_above="@+id/FollowerRequest"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:background="@android:color/holo_blue_dark" />
-
-    <Button
         android:id="@+id/AddFollow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,7 +36,7 @@
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:layout_marginBottom="17dp"
-        android:layout_above="@+id/MyMoodHistory"
+        android:layout_above="@+id/FollowerRequest"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:background="@android:color/holo_blue_dark" />

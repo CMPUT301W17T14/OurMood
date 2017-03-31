@@ -37,14 +37,7 @@ public class ProfileFragment extends Fragment {
         });
 
 
-        MyMoodHistory= (Button)view.findViewById(R.id.MyMoodHistory);
-        MyMoodHistory.setOnClickListener(new View.OnClickListener(){
 
-            @Override
-
-            public void onClick(View v){
-                ToMyMoodHistory(v);}
-        });
         AddFollow= (Button)view.findViewById(R.id.AddFollow);
         AddFollow.setOnClickListener(new View.OnClickListener(){
 
@@ -75,10 +68,6 @@ public class ProfileFragment extends Fragment {
     }
 
 
-    public void ToMyMoodHistory(View view){
-        Intent intent = new Intent(ProfileFragment.this.getActivity(), MyHistoryActivity.class);
-        startActivity(intent);
-    }
 
     public void ToAddFollow(View view){
         Intent intent = new Intent(ProfileFragment.this.getActivity(), AddFollowActivity.class);

@@ -5,6 +5,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="yifanwang.mymood1.MoodeventFragment">
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px" />
 
 
     <LinearLayout

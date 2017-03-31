@@ -141,7 +141,7 @@ public class AddNewEvent extends AppCompatActivity {
         triggerString = (EditText)findViewById(R.id.triggerView);
         reason = triggerString.getText().toString();
 
-        Toast.makeText(this, reason, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, reason, Toast.LENGTH_SHORT).show();
         mood.setTrigger(reason);
         mood.setSocial(social);
 

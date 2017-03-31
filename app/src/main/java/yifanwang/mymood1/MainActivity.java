@@ -101,7 +101,7 @@ public class MainActivity extends Activity implements OnClickListener {
     private void initData() {
         Fragment chatFragment = new MoodeventFragment();
         Fragment friendsFragment = new NearbyFragment();
-        Fragment contactsFragment = new SearchfriendFragment();
+        Fragment contactsFragment = new AllMoodeventFragment();
         Fragment settingsFragment = new ProfileFragment();
 
         fragments.add(chatFragment);

@@ -3,30 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_3aa76e5e0c9a3be810059aa2fd8af056204353c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_e8d5177e4cef26081812e75b443e54dfb055831f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_21c4a7509ef582cddc346ab900b242737ac42736.jar" />
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.0_d8ab43b8d72ea9486ccb9ea7c91072515025897a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,12 +21,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_5f0303a474d3cc270b3e3cb8bfb251b6768e77fc.jar" />
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.1_09e23a6f5ecdaf2f9da2ef6f55aafa2de764f550.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/design/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.0_b73aeb69d2a2faa861b53efbcbb0b83117925919.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,21 +48,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_74edf935230f5df1bb23e3ec67a3da36d33d9047.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_26aafc49b665c5c18e1caadb2c032a55320c3fef.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_71e2551fb9654c00abf57ffdf93534812a51e186.jar" />
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.1_fde845bb272816f644869517f1d9577b9a08c6b7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,75 +75,84 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_c51c22cd2a83432c250b4dffea635bedeba5d756.jar" />
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_93069886de84b164f4bc282886603947e625175b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_031d41e4954dc2cf4904da291c9d8e74884bf742.jar" />
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_55ac8c5fedda9393fad3a7368a18b70741fbb3e6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_52a1c33d4e1bdacfe61b5465594413a0ceda7547.jar" />
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.1_9ea0a66e5beab803ffb1ff0805b4b0569e05c8c3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_4050bfb9b4e73f5ecf3df898f20b63f5cb622149.jar" />
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.0_a54092b82bb1004a1517781bba0b319a5e80abeb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_cf27c7f4cc831b521bdf862acd2d80fe32085642.jar" />
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_77f7301f00c6e10a2caad5ba1c2c0213b547870e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_29e8c9a9e67d0f091de5240b7d857a5f0f873e37.jar" />
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_85c4706fcf7f9f6ddd022b1fc521bf2ac8219810.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_63f186d1279d23f23484cb7d91f250feac53fa53.jar" />
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_7d2c24a30c72ded92a4f09b0fefd1bfe0b6c480c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_2d988cfaccdbf77aff8c2f2631b025a39b1bdf10.jar" />
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_4615365dc6f2132da14e65b7f81d0a2dcbcc4eab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_fa00856d6b596cfe9902cd085af5c257e2d8b43d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,30 +165,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.8.0_9cd62c4b55177e0a59fb8bcc201f3723e24fb4ca.jar" />
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_8be45427717a2fb006b784b4d016ea284c5ec194.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_528ebaed434f9589de293cd0d059c6089407b810.jar" />
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_02ded79c8c9f269d0558e637f3d65e30d33106bb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_0aa72961484c2b0e70195d26b9e12fe622314745.jar" />
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.1_d6fd29ad7568f78066b5aa34002654f7a2891e88.jar" />
     </item>
 
 </items>
