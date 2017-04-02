@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_new_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="yifanwang.mymood1.AddNewEvent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Mood Status:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView6" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/radiogroup2">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anger"
+                    android:layout_weight="1"
+                    android:id="@+id/radioButton30"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confusion"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/radioButton30"
+                    android:id="@+id/radioButton31"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Disgust"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/radioButton31"
+                    android:id="@+id/radioButton32"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fear"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/radioButton32"
+                    android:id="@+id/radioButton33"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Happiness"
+                    android:layout_weight="1"
+                    android:id="@+id/radioButton34"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sadness"
+                    android:layout_weight="1"
+                    android:id="@+id/radioButton35"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shame"
+                    android:layout_weight="1"
+                    android:id="@+id/radioButton36"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surprise"
+                    android:layout_weight="1"
+                    android:id="@+id/radioButton37"/>
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Social Situation:" />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alone"
+                    android:id="@+id/alone" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="With one other person"
+                    android:id="@+id/withother" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="With more than one"
+                    android:id="@+id/moreone" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crowd"
+                    android:id="@+id/crowd" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trigger:"
+            android:layout_marginStart="5dp" />
+
+        <EditText
+            android:id="@+id/triggerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:hint="Input some Keywords"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_action_location_2"
+        android:layout_gravity="center"
+        android:id="@+id/imageView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_action_camera"
+            android:layout_marginStart="7dp"
+
+            android:id="@+id/addImage_bt"
+            android:background="#00000000"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:text="SEND"
+            android:id="@+id/button3"
+            android:onClick="send"
+            android:background="#99ccff"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_action_location_2"
+            android:layout_marginStart="70dp"
+            android:id="@+id/imageButton3"
+            android:onClick="findlocation"
+            android:background="#00000000"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
