@@ -1,15 +1,26 @@
 package yifanwang.mymood1;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.media.Image;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.provider.MediaStore;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.Toast;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class AddNewEvent extends AppCompatActivity {
     private String motion;
@@ -32,6 +43,11 @@ public class AddNewEvent extends AppCompatActivity {
     RadioButton button10;
     RadioButton button11;
     EditText triggerString;
+
+    Uri imageFileUri;
+    Boolean photoTaken = false;
+    Bitmap photo_bitmap;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,13 +68,19 @@ public class AddNewEvent extends AppCompatActivity {
         button11 = (RadioButton)findViewById(R.id.crowd);
         //app = (OurMoodApplication) getApplication();
 
+        //camera
         addImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(AddNewEvent.this, CameroActivity.class);
-                startActivity(i);
+                //Intent i = new Intent(AddNewEvent.this, CameroActivity.class);
+                //startActivity(i);\
+                takephote();
             }
         });
+
+        //clean motion
+        motion = "";
+
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -107,6 +129,9 @@ public class AddNewEvent extends AppCompatActivity {
                 motion = "surprise";
             }
         });
+
+        social = "";
+
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -135,15 +160,38 @@ public class AddNewEvent extends AppCompatActivity {
     }
 
     public void send(View view){
-        userName = OurMoodApplication.username;
-        Mood mood = new Mood(userName,motion);
+
+        //check motion
+
+        if (motion.equals("") ) {
+            Toast.makeText(this, "You need select motion!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (social.equals("")){
+            Toast.makeText(this, "You need select social!", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
         triggerString = (EditText)findViewById(R.id.triggerView);
         reason = triggerString.getText().toString();
 
+        if (reason.equals("")){
+            Toast.makeText(this, "You need entry reason!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        userName = OurMoodApplication.username;
+        Mood mood = new Mood(userName, motion);
+
         //Toast.makeText(this, reason, Toast.LENGTH_SHORT).show();
         mood.setTrigger(reason);
         mood.setSocial(social);
+
+        //phote
+        if (photoTaken) {
+            mood.setImage(photo_bitmap);
+        }
 
         ElasticsearchController.GetUserTask getUserTask = new ElasticsearchController.GetUserTask();
         getUserTask.execute(userName);
@@ -159,9 +207,8 @@ public class AddNewEvent extends AppCompatActivity {
             Log.i("Error", "Failed to get the User out of the async object");
         }
 
-
-
         //set mood propoties
+
         finish();
     }
 
@@ -169,5 +216,54 @@ public class AddNewEvent extends AppCompatActivity {
         Intent intent = new Intent(this,SeeMapActivity.class);
         startActivity(intent);
 
+    }
+
+
+    private void takephote() {
+        File folder = new File(getExternalCacheDir(), "my_picture.jpg");
+        try {
+            if (folder.exists()){
+                folder.delete();
+            }
+            folder.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        if (Build.VERSION.SDK_INT >= 24) {
+            imageFileUri = FileProvider.getUriForFile(AddNewEvent.this,
+                    this.getApplicationContext().getPackageName()+ ".provider", folder);
+        }
+        else {
+
+            imageFileUri = Uri.fromFile(folder);
+        }
+
+        Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+
+        intent.putExtra(MediaStore.EXTRA_OUTPUT, imageFileUri);
+        startActivityForResult(intent, 98);
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        switch (requestCode) {
+            case 98:
+                if (resultCode == RESULT_OK){
+
+                    try {
+                        photo_bitmap = BitmapFactory.
+                                decodeStream(getContentResolver().openInputStream(imageFileUri));
+
+                        //set image preview
+                        ImageView preview = (ImageView)findViewById(R.id.imageView);
+                        preview.setImageBitmap(photo_bitmap);
+                        photoTaken = true;
+                    } catch (FileNotFoundException e) {
+                        e.printStackTrace();
+                    }
+                }
+                break;
+            default:
+                break;
+        }
     }
 }

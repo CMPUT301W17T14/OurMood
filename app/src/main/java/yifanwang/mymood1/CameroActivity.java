@@ -92,14 +92,6 @@ public class CameroActivity extends AppCompatActivity {
         return imageFile;
     }
     public void takeAPhoto() throws IOException {
-//IOException        String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/MyCameraTest";
-//        File folder = new File(path);
-//        if (!folder.exists())
-//            folder.mkdir();
-//        String imagePathAndFileName = path + File.separator + String.valueOf(System.currentTimeMillis()) + ".jpg";
-//        File imageFile = new File(imagePathAndFileName);
-        //imageFileUri = Uri.fromFile(imageFile);;
-                //FileProvider.getUriForFile(this, this.getApplicationContext().getPackageName() + ".provider", createImageFile());
         imageFileUri = FileProvider.getUriForFile(this, this.getApplicationContext().getPackageName() + ".provider", createImageFile());
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         intent.putExtra(MediaStore.EXTRA_OUTPUT, imageFileUri);

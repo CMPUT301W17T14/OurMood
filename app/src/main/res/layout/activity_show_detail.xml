@@ -33,6 +33,11 @@
             android:layout_width="match_parent"
             android:layout_weight="0.11" />
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/noimage" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

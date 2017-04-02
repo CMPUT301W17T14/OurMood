@@ -3,192 +3,192 @@
 
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.0_d8ab43b8d72ea9486ccb9ea7c91072515025897a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_77f7301f00c6e10a2caad5ba1c2c0213b547870e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_85c4706fcf7f9f6ddd022b1fc521bf2ac8219810.jar" />
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_bfde001dbf0619c596b6d203a3235d39f8ea9d56.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/.gradle/caches/modules-2/files-2.1/io.searchbox/jest-droid/2.4.0/a0551d1eb46b72f2e7b63752d9e2639bdd7694a0/jest-droid-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a0551d1eb46b72f2e7b63752d9e2639bdd7694a0">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/jest-droid-2.4.0_ea3a5344abd1bafb20b3ae5d4a079f0d5006b328.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.1_09e23a6f5ecdaf2f9da2ef6f55aafa2de764f550.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_7d2c24a30c72ded92a4f09b0fefd1bfe0b6c480c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/design/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.0_b73aeb69d2a2faa861b53efbcbb0b83117925919.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_4615365dc6f2132da14e65b7f81d0a2dcbcc4eab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.6.3/94ec2d7b23be9817d92905cc09124aecfc46d28c/robotium-solo-5.6.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94ec2d7b23be9817d92905cc09124aecfc46d28c">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/robotium-solo-5.6.3_ed02fd858a37523d934562b6b6d719bcb3ad9f18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_26aafc49b665c5c18e1caadb2c032a55320c3fef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.1_fde845bb272816f644869517f1d9577b9a08c6b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_fa00856d6b596cfe9902cd085af5c257e2d8b43d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_548fa65c5090b206e10dccc2f5c3770a83e0baa3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_8be45427717a2fb006b784b4d016ea284c5ec194.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_5ef932f172208fdb70207684b95d9beec2ba242e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_93069886de84b164f4bc282886603947e625175b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_55ac8c5fedda9393fad3a7368a18b70741fbb3e6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_02ded79c8c9f269d0558e637f3d65e30d33106bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.1_9ea0a66e5beab803ffb1ff0805b4b0569e05c8c3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.1/jars/classes.jar"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.1_d6fd29ad7568f78066b5aa34002654f7a2891e88.jar" />
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.2.1_afb6514be66ee1eec43cada8aa7887aa00325b0c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.0/jars/classes.jar"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_e00fd267a78c9c5ae1cd81294dd5dba1cb44b940.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_089d36018f61c5a525a8ee893df420853e151a0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_5dfa9fa690c397cdb59e8bb897373f6dd86d3c59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_526558ecb3c13971a8cadf734d8c4531289438cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.6.3/94ec2d7b23be9817d92905cc09124aecfc46d28c/robotium-solo-5.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94ec2d7b23be9817d92905cc09124aecfc46d28c">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/robotium-solo-5.6.3_0772bd8dce4e8ea2c612153370d1a3f4a1354845.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_95a58b94f6bade62c3b0269c8c41d683a3345001.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.2.1_fb5131dd78e7d705c414ac4d1b596978c912d198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.2.1_a70285a37dee8038f56950e98d613b05feb3ec14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_2cdb9db565e7bc7e059274ad57d7b81ee2a7f510.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_43e525587cedc2b3c6fe557ebe1b36c136943047.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="/Users/yifanwang/Downloads/OurMood-Mar29/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.0_a54092b82bb1004a1517781bba0b319a5e80abeb.jar" />
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.0_f9e81db4775283fe9b8dc57fbdae72c2aadb177a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_1366fb6cf1ffe665b53bdbbd2559a6ede33f2e6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/.gradle/caches/modules-2/files-2.1/io.searchbox/jest-droid/2.4.0/a0551d1eb46b72f2e7b63752d9e2639bdd7694a0/jest-droid-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a0551d1eb46b72f2e7b63752d9e2639bdd7694a0">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/jest-droid-2.4.0_c8c2eb2d4b7985e609615cb0384e2dbbf1586ff5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.0_91c9ee5e83563c8bc065c0511d880fc6308fc9ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_ab3e8ad7ca2dc748161941fbe9edc6bb887bc13b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_637faa8cfd649fc55e5f0e48040e2af4a1310a6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_0a59f0471f18e8080817f68c8770c6c870cebf6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.2.1_1a2345b3a5f6f1578f41ab746ffc6815fe8261a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/exploded-aar/com.android.support/design/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/cshome/junzhuo/Downloads/OurMood/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.0_32d020185b3ddb5c88631ec82a4fd8eb4eac1ae0.jar" />
     </item>
 
 </items>

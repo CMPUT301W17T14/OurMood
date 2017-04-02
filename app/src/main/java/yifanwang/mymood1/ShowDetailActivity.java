@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -64,6 +65,12 @@ public class ShowDetailActivity extends AppCompatActivity {
         dateView.setText(mood.getDate().toString());
         socialView = (TextView)findViewById(R.id.socialView);
         socialView.setText(mood.getSocial());
+
+        //show imageview
+        if (mood.getImage() != null) {
+            ImageView preview = (ImageView) findViewById(R.id.imageView3);
+            preview.setImageBitmap(mood.getImage());
+        }
         /*
         locationView = (TextView)findViewById(R.id.loactionView);
         locationView.setText(mood.getLocation().toString());

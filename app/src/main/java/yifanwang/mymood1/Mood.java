@@ -1,10 +1,14 @@
 package yifanwang.mymood1;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Location;
 import android.media.Image;
 
+import java.io.ByteArrayOutputStream;
 import java.util.Date;
 import java.util.UUID;
+import android.util.Base64;
 
 /**
  * Created by ruoyang on 2/22/17.
@@ -15,7 +19,8 @@ public class Mood {
     private String mood;
     private String trigger;
     private String social;
-    private Image image;
+    private String imagedata;
+    private Boolean withimage = false;
     private Date date;
     private Location location;
     private int like;
@@ -41,7 +46,7 @@ public class Mood {
                 ", mood='" + mood + '\'' +
                 ", trigger='" + trigger + '\'' +
                 ", social='" + social + '\'' +
-                ", image=" + image +
+                ", image=" + withimage.toString() +
                 ", date=" + date +
                 ", location=" + location +
                 '}';
@@ -73,8 +78,17 @@ public class Mood {
     }
 
 
-    public Image getImage() {
-        return image;
+    public Bitmap getImage() {
+        Bitmap decodedByte;
+        if (withimage) {
+            byte[] decodedString = Base64.decode(imagedata, Base64.DEFAULT);
+            decodedByte = BitmapFactory.decodeByteArray(decodedString, 0,
+                    decodedString.length);
+        }else{
+            //rturn default.
+            decodedByte = null;
+        }
+        return decodedByte;
     }
 
     public Date getDate() {
@@ -98,8 +112,13 @@ public class Mood {
     }
 
 
-    public void setImage(Image image) {
-        this.image = image;
+    public void setImage(Bitmap image) {
+        //Bitmap bm = BitmapFactory.decodeFile("/path/to/image.jpg");
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        image.compress(Bitmap.CompressFormat.JPEG, 100, stream);
+
+        imagedata = Base64.encodeToString(stream.toByteArray(), Base64.NO_WRAP);
+        this.withimage = true;
     }
 
     public void setDate(Date date) {
