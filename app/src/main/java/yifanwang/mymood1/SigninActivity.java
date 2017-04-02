@@ -5,6 +5,8 @@ package yifanwang.mymood1;
  */
 import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -39,6 +41,12 @@ public class SigninActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String username = et.getText().toString();
                 if(checkUsernameLegal(username)) {
+                    if (!isOnline()) {
+                        Toast.makeText(getApplicationContext(),
+                                "You cannot sign in without internet.",
+                                Toast.LENGTH_SHORT).show();
+                        return;
+                    }
                     ElasticsearchController.IsExist isExist= new ElasticsearchController.IsExist();
                     isExist.execute(username);
                     try{
@@ -66,11 +74,25 @@ public class SigninActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d("click","2");
+                if (!isOnline()) {
+                    Toast.makeText(getApplicationContext(),
+                            "You cannot sign up without internet.",
+                            Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 Intent intent = new Intent(SigninActivity.this, SignupActivity.class);
                 startActivity(intent);
             }
         });
     }
+
+    private boolean isOnline() {
+        ConnectivityManager cm =
+                (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        return netInfo != null && netInfo.isConnected();
+    }
+
     private boolean checkUsernameLegal(String username) {
         if(username == null || username.equals("")){
             makeTost("Username cannot be empty");

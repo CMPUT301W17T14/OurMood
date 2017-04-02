@@ -193,18 +193,27 @@ public class AddNewEvent extends AppCompatActivity {
             mood.setImage(photo_bitmap);
         }
 
-        ElasticsearchController.GetUserTask getUserTask = new ElasticsearchController.GetUserTask();
-        getUserTask.execute(userName);
+        // save mood.
+        Boolean isOnline = OnlineChecker.isOnline(this);
+        if (isOnline) {
+            ElasticsearchController.GetUserTask getUserTask = new ElasticsearchController.GetUserTask();
+            getUserTask.execute(userName);
 
-        try {
-            user = getUserTask.get();
-            user.addMood(mood);
-            ElasticsearchController.AddUserTask addUserTask = new ElasticsearchController.AddUserTask();
-            addUserTask.execute(user);
-            //Toast.makeText(this, "New mood adds successfully", Toast.LENGTH_SHORT).show();
+            try {
+                user = getUserTask.get();
+                user.addMood(mood);
+                ElasticsearchController.AddUserTask addUserTask = new ElasticsearchController.AddUserTask();
+                addUserTask.execute(user);
+                //Toast.makeText(this, "New mood adds successfully", Toast.LENGTH_SHORT).show();
 
-        }catch (Exception e) {
-            Log.i("Error", "Failed to get the User out of the async object");
+            }catch (Exception e) {
+                Log.i("Error", "Failed to get the User out of the async object");
+            }
+        }else{
+            //not online save local copy;
+            OfflineMoodController OfflineController = new OfflineMoodController(userName, this);
+            OfflineController.addOfflineAction("ADD", mood);
+            Toast.makeText(this, "Offline Activity Saved!", Toast.LENGTH_SHORT).show();
         }
 
         //set mood propoties
