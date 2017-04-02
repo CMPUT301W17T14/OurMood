@@ -33,12 +33,14 @@ public class AllMoodeventFragment extends Fragment {
     private ListView moodEventsListView;
     private CheckBox filterDate;
     private CheckBox filterWeek;
+    private CheckBox filterrank;
     private EditText filterTrigger;
     private ImageButton applyFilters;
     private Boolean dateFilterSelected;
     private Boolean weekFilterSelected;
     private Boolean moodFilterSelected;
     private Boolean triggerFilterSelected;
+    private Boolean rankFilterSelected;
     private Spinner moodSpinner;
     private boolean satisfiesMood;
     private boolean satisfiesDate;
@@ -115,6 +117,7 @@ public class AllMoodeventFragment extends Fragment {
         moodEventsListView = (ListView) rootView.findViewById(R.id.moodEventsList);
         filterWeek = (CheckBox)rootView.findViewById(R.id.weekfilter);
         filterTrigger = (EditText) rootView.findViewById(R.id.filterreason);
+        filterrank = (CheckBox)rootView.findViewById(R.id.rank);
         applyFilters= (ImageButton)rootView.findViewById(R.id.apply);
         moodSpinner = (Spinner) rootView.findViewById(R.id.moodsspinner);
 
@@ -218,6 +221,9 @@ public class AllMoodeventFragment extends Fragment {
         // sort mood events in reverse chronological Order
         Collections.sort(filteredMoodList, new Order());
 
+        if (rankFilterSelected)
+            Collections.sort(filteredMoodList, new RankOrder());
+
     }
 
     /**
@@ -225,6 +231,7 @@ public class AllMoodeventFragment extends Fragment {
      */
     private void checkFilterSelected() {
         weekFilterSelected = (filterWeek.isChecked());
+        rankFilterSelected = (filterrank.isChecked());
         triggerFilterSelected = (!filterTrigger.getText().toString().
                 equals(""));
         moodFilterSelected = (!moodSpinner.getSelectedItem().toString().

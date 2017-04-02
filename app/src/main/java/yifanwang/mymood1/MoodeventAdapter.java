@@ -49,6 +49,7 @@ public class MoodeventAdapter extends ArrayAdapter<Mood> {
         holder.date = (TextView) row.findViewById(R.id.mood_date);
         holder.emoji = (ImageView) row.findViewById(R.id.mood_emoji);
         holder.username = (TextView) row.findViewById(R.id.mood_username);
+        holder.like = (TextView) row.findViewById(R.id.mood_like);
 
 
 
@@ -89,6 +90,7 @@ public class MoodeventAdapter extends ArrayAdapter<Mood> {
         holder.emotion.setText(emotionString);
         holder.date.setText(holder.mood.getDate().toString());
         holder.username.setText(holder.mood.getName());
+        holder.like.setText(Integer.toString(holder.mood.getLike()));
         emotionToEmoji(holder.emoji,emotion);
     }
 

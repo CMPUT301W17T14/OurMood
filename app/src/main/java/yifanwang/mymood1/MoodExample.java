@@ -14,4 +14,5 @@ public class MoodExample {
     TextView date;
     TextView username;
     ImageView emoji;
+    TextView like;
 }

@@ -21,6 +21,7 @@ import com.google.gson.Gson;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import yifanwang.mymood1.MoodeventAdapter;
@@ -33,10 +34,12 @@ public class MoodeventFragment extends Fragment {
     private ListView moodEventsListView;
     private CheckBox filterDate;
     private CheckBox filterWeek;
+    private CheckBox filterrank;
     private EditText filterTrigger;
     private ImageButton applyFilters;
     private Boolean dateFilterSelected;
     private Boolean weekFilterSelected;
+    private Boolean rankFilterSelected;
     private Boolean moodFilterSelected;
     private Boolean triggerFilterSelected;
     private Spinner moodSpinner;
@@ -90,6 +93,7 @@ public class MoodeventFragment extends Fragment {
         //initialize clickables
         moodEventsListView = (ListView) rootView.findViewById(R.id.moodEventsList);
         filterWeek = (CheckBox)rootView.findViewById(R.id.weekfilter);
+        filterrank = (CheckBox)rootView.findViewById(R.id.rank);
         filterTrigger = (EditText) rootView.findViewById(R.id.filterreason);
         applyFilters= (ImageButton)rootView.findViewById(R.id.apply);
         moodSpinner = (Spinner) rootView.findViewById(R.id.moodsspinner);
@@ -152,13 +156,9 @@ public class MoodeventFragment extends Fragment {
 
     private void filter() {
         filteredMoodList.clear();
-
-
      //check which fliter has been selected
 
         checkFilterSelected();
-
-
         for (Mood moodEvent : unfilteredMoodList) {
 
             satisfiesMood = true;
@@ -196,6 +196,10 @@ public class MoodeventFragment extends Fragment {
         // sort mood events in reverse chronological Order
         Collections.sort(filteredMoodList, new Order());
 
+        if (rankFilterSelected)
+            Collections.sort(filteredMoodList, new RankOrder());
+
+
     }
 
     /**
@@ -203,6 +207,7 @@ public class MoodeventFragment extends Fragment {
      */
     private void checkFilterSelected() {
         weekFilterSelected = (filterWeek.isChecked());
+        rankFilterSelected = (filterrank.isChecked());
         triggerFilterSelected = (!filterTrigger.getText().toString().
                 equals(""));
         moodFilterSelected = (!moodSpinner.getSelectedItem().toString().
