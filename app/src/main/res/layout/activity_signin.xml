@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="Name"
         android:layout_alignTop="@+id/username"
         android:layout_alignParentEnd="true" />
 
