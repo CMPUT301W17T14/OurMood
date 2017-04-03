@@ -38,7 +38,7 @@ public class ShowDetailActivity extends AppCompatActivity {
 
 
         String message = intent.getStringExtra("MOOD");
-        position = Integer.parseInt(message);
+        //position = Integer.parseInt(message);
         userName = OurMoodApplication.getUsername();
         ElasticsearchController.GetUserTask getUserTask = new ElasticsearchController.GetUserTask();
         getUserTask.execute(userName);
@@ -81,9 +81,16 @@ public class ShowDetailActivity extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                moodArrayList.remove(position);
-                ElasticsearchController.AddUserTask addUserTask = new ElasticsearchController.AddUserTask();
-                addUserTask.execute(user);
+                if(OnlineChecker.isOnline(getApplicationContext())) {
+                    user.deleteMood(mood);
+                    ElasticsearchController.AddUserTask addUserTask = new ElasticsearchController.AddUserTask();
+                    addUserTask.execute(user);
+                }else {
+                    OfflineMoodController of = new OfflineMoodController(userName, getApplicationContext());
+                    of.addOfflineAction("DELETE", mood);
+                }
+                //moodArrayList.remove(position);
+
                 //Toast.makeText(this, "New mood adds successfully", Toast.LENGTH_SHORT).show();
                 finish();
             }

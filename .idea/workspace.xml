@@ -10,19 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebf324fd-2b18-47a6-ad9e-a4075c1e244d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/MoodeventFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/MoodeventFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/OfflineMoodController.java" afterPath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/OfflineMoodController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ProfileFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ProfileFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ShowDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ShowDetailActivity.java" />
     </list>
     <ignored path="OurMood.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +47,8 @@
       <file leaf-file-name="AddNewEvent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/AddNewEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="183" column="46" lean-forward="false" selection-start-line="183" selection-start-column="19" selection-end-line="183" selection-end-column="46" />
+            <state relative-caret-position="124">
+              <caret line="202" column="41" lean-forward="true" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,11 +56,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OfflineMoodController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShowDetailActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ShowDetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="86" column="46" lean-forward="true" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="123" column="26" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OfflineMoodController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/OfflineMoodController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="331">
+              <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1208#1209#0" expanded="true" />
@@ -94,16 +102,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllMoodeventFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/AllMoodeventFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProfileFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ProfileFragment.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,16 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyFragmentPagerAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/MyFragmentPagerAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -2034,7 +2022,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_delete_mood.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_show_detail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/EditDeleteMoodActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ShowDetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/EditMoodActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/SigninActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/OnlineChecker.java" />
@@ -2044,11 +2031,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ProfileFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/MoodeventFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/OfflineMoodController.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ShowDetailActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="391" />
+    <option name="x" value="445" />
     <option name="y" value="49" />
     <option name="width" value="1497" />
     <option name="height" value="1027" />
@@ -2537,7 +2525,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="391" y="49" width="1497" height="1027" extended-state="0" />
+    <frame x="445" y="49" width="1497" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2895,29 +2884,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="96" column="84" lean-forward="true" selection-start-line="96" selection-start-column="84" selection-end-line="96" selection-end-column="84" />
-          <folding>
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/EditDeleteMoodActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ShowDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -3001,16 +2971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/AddNewEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="183" column="46" lean-forward="false" selection-start-line="183" selection-start-column="19" selection-end-line="183" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/AllMoodeventFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -3075,10 +3035,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="123" column="26" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/OfflineMoodController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="331">
+          <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1208#1209#0" expanded="true" />
@@ -3086,6 +3054,24 @@
             <element signature="e#1313#1314#0" expanded="true" />
             <element signature="e#1351#1352#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/AddNewEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="202" column="41" lean-forward="true" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/yifanwang/mymood1/ShowDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="86" column="46" lean-forward="true" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
