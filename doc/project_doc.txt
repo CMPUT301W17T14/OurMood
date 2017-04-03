@@ -1,0 +1,42 @@
+#sign in page 
+-----------------------------------------------
+<image> profile picture
+	display image 
+<text> enter username
+	enter text 
+<button> sign in
+	enter text
+<button> sign up 
+	goes to sign up page 
+	#sign up page
+	-------------------------------------------
+	<text> use email
+	<text> choose username 
+	<button> sign up
+
+
+
+
+
+
+
+
+
+
+
+
+
+#search and filtering moods
+------------------------------------------------
+<text> search
+	search for either state, text content, 
+<text> list of moods
+	display list of moods, most recent first
+<text> add mood
+	add mood for counts for current time, date, state, text.
+<button> following  
+	see a list of people follwing
+<button> back
+	goes back to previous menu
+<button> followers 
+	see a list of people following you
