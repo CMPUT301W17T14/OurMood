@@ -24,9 +24,24 @@ public class SendFollowRequestTest extends ActivityInstrumentationTestCase2<Sign
     public void testStart() throws Exception {
         Activity activity = getActivity();
     }
+    public void test0(){
+        solo.assertCurrentActivity("wrong activity", SigninActivity.class);
+        solo.clickOnButton("Sign Up");
+        solo.assertCurrentActivity("wrong activity", SignupActivity.class);
+
+        solo.enterText((EditText) solo.getView(R.id.username_et), "d0");
+        solo.clickOnButton("Sign Up");
+        solo.assertCurrentActivity("wrong activity", SigninActivity.class);
+
+        solo.clickOnButton("Sign Up");
+        solo.assertCurrentActivity("wrong activity", SignupActivity.class);
+        solo.enterText((EditText) solo.getView(R.id.username_et), "d1");
+        solo.clickOnButton("Sign Up");
+        solo.assertCurrentActivity("wrong activity", SigninActivity.class);
+    }
     public void testSendSucceed(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
-        solo.enterText((EditText) solo.getView(R.id.editText), "test");
+        solo.enterText((EditText) solo.getView(R.id.editText), "d0");
         solo.clickOnButton("Sign In");
         solo.assertCurrentActivity("Wrong Activity", MainActivity.class);
 
@@ -36,14 +51,14 @@ public class SendFollowRequestTest extends ActivityInstrumentationTestCase2<Sign
         solo.clickOnButton("Follow a new person");
         solo.assertCurrentActivity("wrong activity", AddFollowActivity.class);
 
-        solo.enterText((EditText) solo.getView(R.id.editText3), "test1");
+        solo.enterText((EditText) solo.getView(R.id.editText3), "d1");
         solo.clickOnButton("Follow this person");
         solo.waitForText("Follow Request sends successfully");
     }
 
     public void testSendFailed(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
-        solo.enterText((EditText) solo.getView(R.id.editText), "test");
+        solo.enterText((EditText) solo.getView(R.id.editText), "d0");
         solo.clickOnButton("Sign In");
         solo.assertCurrentActivity("Wrong Activity", MainActivity.class);
 
@@ -53,7 +68,7 @@ public class SendFollowRequestTest extends ActivityInstrumentationTestCase2<Sign
         solo.clickOnButton("Follow a new person");
         solo.assertCurrentActivity("wrong activity", AddFollowActivity.class);
 
-        solo.enterText((EditText) solo.getView(R.id.editText3), "test");
+        solo.enterText((EditText) solo.getView(R.id.editText3), "d0");
         solo.clickOnButton("Follow this person");
         solo.waitForText("You enter a wrong username");
 
@@ -64,7 +79,7 @@ public class SendFollowRequestTest extends ActivityInstrumentationTestCase2<Sign
 
     public void testRequestAccpet(){
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
-        solo.enterText((EditText) solo.getView(R.id.editText), "test");
+        solo.enterText((EditText) solo.getView(R.id.editText), "d1");
         solo.clickOnButton("Sign In");
         solo.assertCurrentActivity("Wrong Activity", MainActivity.class);
 
