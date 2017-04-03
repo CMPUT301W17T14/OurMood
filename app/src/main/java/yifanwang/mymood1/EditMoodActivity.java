@@ -120,10 +120,11 @@ public class EditMoodActivity extends AppCompatActivity {
             button7.setChecked(true);
         }
 
-        if(mood.getMood().equals("alone")){
-            button8.setChecked(true);
-        }
+
         if(mood.getSocial()!=null) {
+            if(mood.getSocial().equals("alone")){
+                button8.setChecked(true);
+            }
             if (mood.getSocial().equals("with one other people")) {
                 button9.setChecked(true);
             }
