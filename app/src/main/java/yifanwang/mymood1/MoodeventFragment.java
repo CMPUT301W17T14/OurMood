@@ -76,6 +76,13 @@ public class MoodeventFragment extends Fragment {
 
 
         String currentUserName = OurMoodApplication.getUsername();
+
+        //sync offline data
+        if (OnlineChecker.isOnline(getActivity())) {
+            OfflineMoodController of = new OfflineMoodController(OurMoodApplication.username, getActivity());
+            of.SyncOfflineAction();
+        }
+
         ElasticsearchController.GetUserTask getUserTask = new ElasticsearchController.GetUserTask();
         getUserTask.execute(currentUserName);
 

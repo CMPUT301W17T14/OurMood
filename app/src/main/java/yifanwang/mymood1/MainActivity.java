@@ -48,6 +48,13 @@ public class MainActivity extends Activity implements OnClickListener {
         initView();
 
         initData();
+
+        //sync offline data
+        if (OnlineChecker.isOnline(this)) {
+            OfflineMoodController of = new OfflineMoodController(username, this);
+            of.SyncOfflineAction();
+        }
+
     }
 
     private void initView() {

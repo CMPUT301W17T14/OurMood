@@ -2,6 +2,8 @@ package yifanwang.mymood1;
 
 import android.content.Context;
 import android.os.Environment;
+import android.util.Log;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -41,6 +43,7 @@ public class OfflineMoodController {
         of.mood = mood;
 
         OfflineMoodList.add(of);
+        SaveFile();
     }
 
     public int getOfflineListSize() {
@@ -49,6 +52,50 @@ public class OfflineMoodController {
 
     public ArrayList<OfflineMoodModule> getOfflineList() {
         return OfflineMoodList;
+    }
+
+    public Boolean SyncOfflineAction() {
+        Log.i("Offline", "Offline Count: " + getOfflineListSize());
+        if (getOfflineListSize() == 0) {
+            return true;
+        }
+
+        ElasticsearchController.GetUserTask getUserTask = new ElasticsearchController.GetUserTask();
+        getUserTask.execute(username);
+        User user;
+        try {
+             user = getUserTask.get();
+        }catch (Exception e) {
+            Log.i("Error", "Failed to get the User out of the async object");
+            return false;
+        }
+
+        for(OfflineMoodModule mm: OfflineMoodList) {
+            doSync(user, mm);
+        }
+
+        ElasticsearchController.AddUserTask addUserTask = new ElasticsearchController.AddUserTask();
+        addUserTask.execute(user);
+
+        File cachedfile = new File(context.getExternalCacheDir(), FILEPREFIX + username);
+        cachedfile.delete();
+
+        Log.i("Offline", "Offline Data synced.");
+        Toast.makeText(context,
+                "Offline Data synced.",
+                Toast.LENGTH_SHORT).show();
+        return true;
+    }
+
+    private void doSync(User user, OfflineMoodModule m) {
+        if (m.action.equals("ADD")) {
+            user.addMood(m.mood);
+        }else if(m.action.equals("DELETE")) {
+            user.deleteMood(m.mood);
+        }else if(m.action.equals("EDIT")) {
+            //pass
+        }
+
     }
 
     private void CreateOrLoadList(String username){
@@ -61,7 +108,6 @@ public class OfflineMoodController {
         }
 
         this.username = username;
-        SaveFile();
     }
 
     private void ReadFile(File fp) {
@@ -95,5 +141,7 @@ public class OfflineMoodController {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Log.i("Offline", "Offline Data Saved, Count: " + getOfflineListSize());
     }
 }

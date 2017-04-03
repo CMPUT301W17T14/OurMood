@@ -56,6 +56,12 @@ public class ProfileFragment extends Fragment {
                 ToEdit(v);}
         });
 
+        //sync offline data
+        if (OnlineChecker.isOnline(getActivity())) {
+            OfflineMoodController of = new OfflineMoodController(OurMoodApplication.username, getActivity());
+            of.SyncOfflineAction();
+        }
+
         return view;
 
     }
