@@ -1,0 +1,16 @@
+Use Case Name: New mood event
+Participating Actors: User
+Goal: User adds a new mood event to the mood history.
+Trigger: User chooses the Add option
+Precondition: User want to add his/her moods
+Postcondition:
+On success,1)The new moods event uploads to the server
+               2)Mood history updated
+               3)Other user who follows can see this mood event.
+Basic Flow:
+  1.User chooses a emotional states.
+  2.User submits an optional trigger
+  3.User submits a optional social situation.
+  4.User chooses Reason option
+  5.User submits a brief textual explanation (no more than 20 characters or 3words).
+  6.User submits a photograph.
