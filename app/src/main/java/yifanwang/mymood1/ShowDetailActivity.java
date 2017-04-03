@@ -65,10 +65,10 @@ public class ShowDetailActivity extends AppCompatActivity {
             ImageView preview = (ImageView) findViewById(R.id.imageView3);
             preview.setImageBitmap(mood.getImage());
         //}
-
-        locationView = (TextView)findViewById(R.id.loactionView);
-        locationView.setText(mood.getLocation().getProvider());
-
+        if (mood.getLocation() != null) {
+            locationView = (TextView) findViewById(R.id.loactionView);
+            locationView.setText(mood.getLocation().getProvider());
+        }
 
 
         delete = (Button)findViewById(R.id.deleteButton);

@@ -260,6 +260,7 @@ public class EditMoodActivity extends AppCompatActivity {
                     if (photoTaken) {
                         mood.setImage(photo_bitmap);
                     }
+
                     moodArrayList.add(mood);
                     ElasticsearchController.AddUserTask addUserTask = new ElasticsearchController.AddUserTask();
                     addUserTask.execute(user);
@@ -285,6 +286,7 @@ public class EditMoodActivity extends AppCompatActivity {
             if (photoTaken) {
                 mood.setImage(photo_bitmap);
             }
+
             OfflineMoodController OfflineController1 = new OfflineMoodController(userName, this);
             Toast.makeText(this, "Offline Activity Saved!", Toast.LENGTH_LONG).show();
             OfflineController1.addOfflineAction("ADD", mood);

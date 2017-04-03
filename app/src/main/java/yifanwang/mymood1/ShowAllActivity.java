@@ -46,10 +46,10 @@ public class ShowAllActivity extends AppCompatActivity {
         socialView = (TextView)findViewById(R.id.socialView1);
         socialView.setText(mood.getSocial());
 
-
-        locationView = (TextView)findViewById(R.id.loactionView1);
-        locationView.setText(mood.getLocation().getProvider());
-
+        if (mood.getImage() != null) {
+            locationView = (TextView) findViewById(R.id.loactionView1);
+            locationView.setText(mood.getLocation().getProvider());
+        }
         if (mood.getImage() != null) {
             ImageView preview = (ImageView) findViewById(R.id.imageView4);
             preview.setImageBitmap(mood.getImage());
