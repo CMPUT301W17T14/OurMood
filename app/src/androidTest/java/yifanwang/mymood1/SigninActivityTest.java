@@ -35,8 +35,9 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
         solo.clickOnButton("Sign Up");
         solo.assertCurrentActivity("wrong activity", SignupActivity.class);
 
-        solo.enterText((EditText) solo.getView(R.id.username_et), "asdf");
+        solo.enterText((EditText) solo.getView(R.id.username_et), "test1");
         solo.clickOnButton("Sign Up");
+
     }
     //test the error checking
     public void testSignUpFailed() {
@@ -57,7 +58,7 @@ public class SigninActivityTest extends ActivityInstrumentationTestCase2<SigninA
     //test if we can sign in successfully
     public void testSignInSucceed() {
         solo.assertCurrentActivity("wrong activity", SigninActivity.class);
-        solo.enterText((EditText) solo.getView(R.id.editText), "asdf");
+        solo.enterText((EditText) solo.getView(R.id.editText), "test1");
         solo.clickOnButton("Sign In");
         solo.assertCurrentActivity("Wrong Activity", MainActivity.class);
     }
