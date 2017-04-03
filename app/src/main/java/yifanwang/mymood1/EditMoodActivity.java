@@ -280,8 +280,9 @@ public class EditMoodActivity extends AppCompatActivity {
                 mood.setImage(photo_bitmap);
             }
             OfflineMoodController OfflineController1 = new OfflineMoodController(userName, this);
+            Toast.makeText(this, "Offline Activity Saved!", Toast.LENGTH_LONG).show();
             OfflineController1.addOfflineAction("ADD", mood);
-            Toast.makeText(this, "Offline Activity Saved!", Toast.LENGTH_SHORT).show();
+
         }
         finish();
     }

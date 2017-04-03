@@ -142,11 +142,7 @@ public class MoodeventFragment extends Fragment {
         return rootView;
 
     }
-    public void ToInterest(View view)
-    {
-        Intent intent = new Intent(MoodeventFragment.this.getActivity(), Fliter.class);
-        startActivity(intent);
-    }
+
     public void Tomain(View view)
     {
         Intent intent = new Intent(MoodeventFragment.this.getActivity(), SeeMapActivity.class);
@@ -256,6 +252,5 @@ public class MoodeventFragment extends Fragment {
         filter();
         adapter.notifyDataSetChanged();
     }
-
 
 }

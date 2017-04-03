@@ -78,7 +78,6 @@ public class AddNewEvent extends AppCompatActivity {
             }
         });
 
-        //clean motion
         motion = "";
 
         button0.setOnClickListener(new View.OnClickListener() {
@@ -161,7 +160,6 @@ public class AddNewEvent extends AppCompatActivity {
 
     public void send(View view){
 
-        //check motion
 
         if (motion.equals("") ) {
             Toast.makeText(this, "You need select motion!", Toast.LENGTH_SHORT).show();
@@ -173,10 +171,6 @@ public class AddNewEvent extends AppCompatActivity {
         triggerString = (EditText)findViewById(R.id.triggerView);
         reason = triggerString.getText().toString();
 
-        if (reason.equals("")){
-            Toast.makeText(this, "You need entry reason!", Toast.LENGTH_SHORT).show();
-            return;
-        }
 
         userName = OurMoodApplication.username;
         Mood mood = new Mood(userName, motion);
@@ -211,8 +205,8 @@ public class AddNewEvent extends AppCompatActivity {
         }else{
             //not online save local copy;
             OfflineMoodController OfflineController = new OfflineMoodController(userName, this);
+            Toast.makeText(this, "Offline Activity Saved!", Toast.LENGTH_LONG).show();
             OfflineController.addOfflineAction("ADD", mood);
-            Toast.makeText(this, "Offline Activity Saved!", Toast.LENGTH_SHORT).show();
         }
         finish();
     }

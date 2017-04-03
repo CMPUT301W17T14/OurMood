@@ -43,7 +43,6 @@ public class MainActivity extends Activity implements OnClickListener {
 
         OurMoodApplication app = (OurMoodApplication) getApplication();
         OurMoodApplication.username = username;
-        app.setFilter(new Filter_data());
 
         initView();
 

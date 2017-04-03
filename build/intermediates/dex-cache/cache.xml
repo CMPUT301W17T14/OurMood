@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a38431170bce98970208441308d3d591289c00be">
+        sha1="6c681beacc9734a84e90e3c3c71b668fa92e222e">
         <dex dex="/Users/zheng/Desktop/OurMood-without_nearby/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c108962c29430eb884eed7504202d28050c2e425/classes.dex" />
     </item>
     <item
@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ccdb540099de19b01f1d0079014cfc7144e6b7b6">
+        sha1="9d242742539a496070434d2f0a89cf6f391ba829">
         <dex dex="/Users/zheng/Desktop/OurMood-without_nearby/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f25f5aba827963f179152ef9f9d6249455c88fbd/classes.dex" />
     </item>
     <item

@@ -114,6 +114,7 @@ public class AllMoodeventFragment extends Fragment {
         }catch(Exception e){
             Log.i("Error", "Failed to get the User");
         }
+
         filteredMoodList = new ArrayList<Mood>(unfilteredMoodList);
 
         moodEventsListView = (ListView) rootView.findViewById(R.id.moodEventsList);
@@ -160,11 +161,7 @@ public class AllMoodeventFragment extends Fragment {
         return rootView;
 
     }
-    public void ToInterest(View view)
-    {
-        Intent intent = new Intent(AllMoodeventFragment.this.getActivity(), Fliter.class);
-        startActivity(intent);
-    }
+
     public void Tomain(View view)
     {
         Intent intent = new Intent(AllMoodeventFragment.this.getActivity(), SeeMapActivity.class);
@@ -293,6 +290,7 @@ public class AllMoodeventFragment extends Fragment {
 
 
     /*http://www.cnblogs.com/NeilLing/p/4294098.html*/
+
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);

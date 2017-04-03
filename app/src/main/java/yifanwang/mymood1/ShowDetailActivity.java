@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -99,6 +100,7 @@ public class ShowDetailActivity extends AppCompatActivity {
                     finish();
                 }else {
                     OfflineMoodController of = new OfflineMoodController(userName, getApplicationContext());
+                    Toast.makeText(ShowDetailActivity.this,"Offline Activity Saved!", Toast.LENGTH_LONG).show();
                     of.addOfflineAction("DELETE", mood);
                     finish();
                 }

@@ -42,9 +42,6 @@
         <activity android:name=".SignupActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".FriendRequestActivity" />
-        <activity android:name=".MyHistoryActivity" />
-        <activity android:name=".Fliter" />
-        <activity android:name=".Filter2" />
         <activity android:name=".ShowDetailActivity" />
         <activity android:name=".EditMoodActivity" />
         <activity android:name=".ShowAllActivity" />
@@ -64,7 +61,6 @@
             android:name=".SeeMapActivity"
             android:label="@string/title_activity_see_map" />
         <activity android:name=".AddNewEvent" />
-        <activity android:name=".CameroActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
